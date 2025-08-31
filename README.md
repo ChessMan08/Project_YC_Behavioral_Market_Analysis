@@ -99,7 +99,7 @@ To replicate this project, clone the repository and set up the environment.
 
 ---
 
-## 💡 Lessons Learned
+## Lessons Learned
 
 * **Data Reliability:** Sourcing consistent, high-quality data is a major challenge. The initial Google Trends API calls were unreliable, requiring the implementation of a more robust fallback keyword strategy and anti-blocking measures like randomized delays.
 * **The Power of dbt:** Using dbt for transformation was a game-changer. It allowed for modular, testable SQL code and made it easy to build complex, multi-step data models that would have been unmanageable in a single query.
@@ -107,7 +107,7 @@ To replicate this project, clone the repository and set up the environment.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 While this project provides a strong foundation, several features could be added to enhance its capabilities:
 
