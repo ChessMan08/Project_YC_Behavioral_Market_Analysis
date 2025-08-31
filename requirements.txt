@@ -1,0 +1,19 @@
+# Data Collection & APIs
+pandas
+yfinance
+pytrends
+newsapi-python
+vaderSentiment
+
+# Data Transformation
+dbt-duckdb
+
+# Data Exploration & Visualization
+jupyterlab
+numpy
+matplotlib
+seaborn
+
+# Optional: For Google Cloud Integration
+gcsfs
+google-cloud-storage
