@@ -3,7 +3,6 @@
 An end-to-end data analytics project investigating the relationship between public sentiment (news articles) and stock market behavior (price, volume, and volatility).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-
 ## Project Overview
 
 This project tests the hypothesis that shifts in public attention and media sentiment can serve as leading indicators for stock market volatility and trading volume. By ingesting, processing, and analyzing data from financial markets and news APIs, this project aims to uncover correlations and build a tool for behavioral market analysis.
