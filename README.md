@@ -98,3 +98,20 @@ To replicate this project, clone the repository and set up the environment.
     The final dataset will be available at `data/processed/final_analytics_data.csv`.
 
 ---
+
+## 💡 Lessons Learned
+
+* **Data Reliability:** Sourcing consistent, high-quality data is a major challenge. The initial Google Trends API calls were unreliable, requiring the implementation of a more robust fallback keyword strategy and anti-blocking measures like randomized delays.
+* **The Power of dbt:** Using dbt for transformation was a game-changer. It allowed for modular, testable SQL code and made it easy to build complex, multi-step data models that would have been unmanageable in a single query.
+* **Visualizing Noise:** Raw daily data (like sentiment scores) is often too noisy to reveal clear trends. Calculating 7-day rolling averages was a critical step to smooth the data and make the underlying correlations visible in the dashboard.
+
+---
+
+## 🔮 Future Improvements
+
+While this project provides a strong foundation, several features could be added to enhance its capabilities:
+
+* **Cloud Deployment:** The next logical step is to deploy the entire pipeline on a cloud platform like GCP, using Cloud Functions for ingestion, BigQuery as the data warehouse, and a managed dbt instance for transformations.
+* **Expanded Data Sources:** Incorporate additional alternative data sources, such as Twitter posts, to get a richer, real-time view of public sentiment.
+* **Machine Learning Integration:** Build a time-series forecasting model (e.g., ARIMA or Prophet) to predict future volatility based on the sentiment and trend features engineered in this project.
+* **Parametrize the Dashboard:** Add controls to the dashboard to allow users to change the rolling average window (e.g., from 7 days to 30 days) to explore different trend granularities.
