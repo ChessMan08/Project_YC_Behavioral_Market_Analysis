@@ -13,7 +13,7 @@ The entire data pipeline, from ingestion to transformation, was built locally us
 
 **Explore the interactive dashboard built with Looker Studio:**
 
-[**➡️ Live Project Titan Dashboard**](https://lookerstudio.google.com/s/vxjSU55_Kw0)
+[**➡️ Live Project YC Dashboard**](https://lookerstudio.google.com/s/vxjSU55_Kw0)
 
 *(Note: The dashboard is built on a static, exported dataset. The full automated pipeline was developed locally.)*
 
