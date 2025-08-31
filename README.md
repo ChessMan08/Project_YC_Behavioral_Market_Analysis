@@ -4,9 +4,15 @@ An end-to-end data analytics project investigating the relationship between publ
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
+## Project Overview
+
+This project tests the hypothesis that shifts in public attention and media sentiment can serve as leading indicators for stock market volatility and trading volume. By ingesting, processing, and analyzing data from financial markets and news APIs, this project aims to uncover correlations and build a tool for behavioral market analysis.
+
+The entire data pipeline, from ingestion to transformation, was built locally using a modern analytics stack. The final, cleaned dataset was then used to power an interactive executive dashboard for exploration and insight generation.
+
 ---
 
-## 📊 Live Dashboard
+## Live Dashboard
 
 **Explore the interactive dashboard built with Looker Studio:**
 
@@ -16,15 +22,7 @@ An end-to-end data analytics project investigating the relationship between publ
 
 ---
 
-## 📜 Project Overview
-
-This project tests the hypothesis that shifts in public attention and media sentiment can serve as leading indicators for stock market volatility and trading volume. By ingesting, processing, and analyzing data from financial markets and news APIs, this project aims to uncover correlations and build a tool for behavioral market analysis.
-
-The entire data pipeline, from ingestion to transformation, was built locally using a modern analytics stack. The final, cleaned dataset was then used to power an interactive executive dashboard for exploration and insight generation.
-
----
-
-## ✨ Key Features & Insights
+## Key Features & Insights
 
 * **End-to-End Data Pipeline:** A complete, locally-run pipeline that collects data using Python, transforms it with dbt, and visualizes it in Looker Studio.
 * **Advanced Analytics:** Calculation of key financial metrics including 30-day rolling volatility, 7-day rolling averages for sentiment and news volume, and daily returns.
@@ -33,7 +31,7 @@ The entire data pipeline, from ingestion to transformation, was built locally us
 
 ---
 
-## 📸 Dashboard Preview
+## Dashboard Preview
 
 Here are some previews of the dashboard analyzing different company data.
 
@@ -47,7 +45,7 @@ Here are some previews of the dashboard analyzing different company data.
 
 ---
 
-## 🛠️ Tech Stack & Architecture
+## Tech Stack & Architecture
 
 This project utilizes a modern, local-first data stack.
 
@@ -70,7 +68,7 @@ This project utilizes a modern, local-first data stack.
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 To replicate this project, clone the repository and set up the environment.
 
