@@ -42,9 +42,9 @@ Here are some previews of the dashboard analyzing different company data.
 *(A look at the relationship between closing price and the 7-day average sentiment score.)*
 ![NVDA Analysis](./assets/screenshot_nvda.png)
 
-#### **Tesla (TSLA) Analysis**
+#### **Google (GOOGL) Analysis**
 *(Examining the correlation between market activity and media attention.)*
-![TSLA Analysis](./assets/screenshot_tsla.png)
+![GOOGL Analysis](./assets/screenshot_googl.png)
 
 ---
 
