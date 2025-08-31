@@ -1,6 +1,4 @@
-# Project Titan: Behavioral Market Analysis
-
-An end-to-end data analytics project investigating the relationship between public sentiment (news articles) and stock market behavior (price, volume, and volatility).
+# Project YC: Behavioral Market Analysis
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ## Project Overview
