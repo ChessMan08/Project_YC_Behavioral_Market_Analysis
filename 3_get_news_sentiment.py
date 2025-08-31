@@ -4,7 +4,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from datetime import date, timedelta
 
 # Configuration
-NEWS_API_KEY = 'e0b17a061801424ebd382809fc37c665' 
+NEWS_API_KEY = 'YOUR_API_KEY' 
 
 # Map tickers to a more search-friendly company name.
 COMPANY_NAMES = {
