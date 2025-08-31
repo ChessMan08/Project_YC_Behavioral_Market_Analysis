@@ -109,7 +109,7 @@ To replicate this project, clone the repository and set up the environment.
 
 ## Future Improvements
 
-While this project provides a strong foundation, several features could be added to enhance its capabilities:
+ These features could be added to enhance its capabilities:
 
 * **Cloud Deployment:** The next logical step is to deploy the entire pipeline on a cloud platform like GCP, using Cloud Functions for ingestion, BigQuery as the data warehouse, and a managed dbt instance for transformations.
 * **Expanded Data Sources:** Incorporate additional alternative data sources, such as Twitter posts, to get a richer, real-time view of public sentiment.
