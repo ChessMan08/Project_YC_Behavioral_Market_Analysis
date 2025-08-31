@@ -19,6 +19,12 @@ The entire data pipeline, from ingestion to transformation, was built locally us
 
 ---
 
+## ⚠️ Data Limitations
+
+* **News API Data:** Due to the limitations of the free tier of the NewsAPI, the sentiment and article count data is restricted to the most recent 30 days (July 31, 2025 – August 29, 2025). As a result, direct sentiment analysis is focused on this period.
+
+---
+
 ## Key Features & Insights
 
 * **End-to-End Data Pipeline:** A complete, locally-run pipeline that collects data using Python, transforms it with dbt, and visualizes it in Looker Studio.
@@ -56,12 +62,6 @@ This project utilizes a modern, local-first data stack.
 1.  **Ingestion:** Python scripts located in `scripts/extraction/` are run to collect 10 years of stock market data and 30 days of news headlines, saving them as CSV files to the `data/raw/` directory.
 2.  **Transformation:** dbt connects to the local DuckDB instance, reads the raw CSVs from `data/raw/`, and runs a series of SQL models to clean, join, and calculate advanced metrics.
 3.  **Export & Visualization:** A Python script in `scripts/analysis/` exports the final, transformed table from DuckDB to a clean CSV in the `data/processed/` directory. This file is then uploaded to Google Sheets to power the Looker Studio dashboard.
-
----
-
-## ⚠️ Data Limitations
-
-* **News API Data:** Due to the limitations of the free tier of the NewsAPI, the sentiment and article count data is restricted to the most recent 30 days (July 31, 2025 – August 29, 2025). As a result, direct sentiment analysis is focused on this period.
 
 ---
 
