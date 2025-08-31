@@ -71,8 +71,7 @@ To replicate this project, clone the repository and set up the environment.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/project-titan.git](https://github.com/your-username/project-titan.git)
-    cd project-titan
+    git clone [https://github.com/ChessMan08/Project_YC_Behavioral_Market_Analysis.git](https://github.com/ChessMan08/Project_YC_Behavioral_Market_Analysis.git)
     ```
 2.  **Install dependencies:**
     ```bash
